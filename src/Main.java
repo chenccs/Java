@@ -1,12 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
+       toCool();
+       toOtherCool();
+    }
+    private static void  toCool() {
         System.out.println("Cool!");
     }
-    public static void  toCool() {
-        System.out.println("Cool!");
-    }
-    public static void  toOtherCool() {
+    private static void  toOtherCool() {
         System.out.println("Cool!");
     }
 }
